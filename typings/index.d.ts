@@ -28,8 +28,8 @@ export interface TextCommandOptions {
 }
 
 export interface ButtonOptions {
-    permissions: PermissionString[];
-    clientPermissions: PermissionString[];
+    permissions?: PermissionString[];
+    clientPermissions?: PermissionString[];
     devOnly?: boolean;
     guildOnly?: boolean;
     ownerOnly?: boolean;
@@ -58,3 +58,4 @@ export interface GenerateTimestampOptions {
     timestamp?: Date | number;
     type?: "t" | "T" | "d" | "D" | "f" | "F" | "R";
 }
+
