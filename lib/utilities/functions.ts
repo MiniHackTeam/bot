@@ -4,7 +4,6 @@ import {
     Channel,
     GuildChannel,
     MessageActionRow,
-    MessageButton,
     MessageEmbed,
     MessageEmbedOptions,
     PermissionString,
@@ -121,27 +120,15 @@ export default class Functions {
     /**
      * Generate a full error message with a simple helper function.
      * @param embedInfo The information to build our embed with.
-     * @param supportServer Whether or not to add the support server link as a component.
      * @param components The components for our message.
      * @param ephemeral Whether our message should be ephemeral or not.
      * @return The generated error message.
      */
     public generateErrorMessage(
         embedInfo: MessageEmbedOptions,
-        supportServer: boolean = false,
         components: MessageActionRow[] = [],
         ephemeral: boolean = true
     ): GeneratedMessage {
-        if (supportServer)
-            components.concat([
-                new MessageActionRow().addComponents(
-                    new MessageButton({
-                        label: "Support Server",
-                        url: this.client.config.supportServer,
-                        style: "LINK"
-                    })
-                )
-            ]);
         return {
             embeds: [
                 new MessageEmbed(embedInfo).setColor(

@@ -163,7 +163,7 @@ export default class TextCommandHandler {
                 return message.reply(
                     this.client.functions.generateErrorMessage({
                         title: "An Error Has Occurred",
-                        description: `An unexpected error was encountered while running \`${command.name}\`, my developers have already been notified! Feel free to join my support server in the mean time!`,
+                        description: `An unexpected error was encountered while running \`${command.name}\`, my developers have already been notified!`,
                         footer: { text: `Sentry Event ID: ${sentryId} ` }
                     })
                 );
@@ -175,3 +175,4 @@ export default class TextCommandHandler {
         );
     }
 }
+
