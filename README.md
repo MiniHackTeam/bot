@@ -1,16 +1,13 @@
-# TypeScript Discord Boilerplate
+# MiniHack Bot
 
-Welcome to the template repository for my TypeScript Discord bots. Please feel free to use this template repository if wanted, please provide credit to this repository when doing so.
+Welcome to the GitHub repository for the MiniHack Bot. A helper bot for the Mini Hack Discord server.
 
-## Notes
-
-If one of your interactions might take longer than three seconds to reply, you **must** use `interaction.deferReply(...)`, and then `interaction.editReply(...)`,
-otherwise the interaction's token will invalidate and you will not be able to reply.
+This bot allows us to create a clean button role system and automatically create threads within certain channels.
 
 ## Credits
 
-[Geek](https://github.com/GamingGeek) @ [FireDiscordBot](https://github.com/): The [widget](https://inv.wtf) below, as well as the discord.js [fork](https://github.com/FireDiscordBot/discord.js) that we use.
+[Geek](https://github.com/GamingGeek) @ [FireDiscordBot](https://github.com/): The discord.js [fork](https://github.com/FireDiscordBot/discord.js) that we use.
 
-## Join The Following Server For Support
+## Join The Mini Hack Discord Server
 
-[![Discord Invite Widget](https://inv.wtf/widget/polar)](https://inv.wtf/polar)
+[![Discord Invite Widget](https://invidget.switchblade.xyz/x2H7KPMWR2)](https://invidget.switchblade.xyz/x2H7KPMWR2)

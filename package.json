@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "minihack-discord-bot",
     "version": "1.0.0",
-    "description": "",
+    "description": "Helper bot for the Mini Hack Discord server.",
     "main": "dist/src/index.js",
     "type": "module",
     "scripts": {
@@ -38,3 +38,4 @@
         "typescript": "^4.5.2"
     }
 }
+
