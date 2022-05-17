@@ -6,8 +6,8 @@ This bot allows us to create a clean button role system and automatically create
 
 ## Credits
 
-[Geek](https://github.com/GamingGeek) @ [FireDiscordBot](https://github.com/): The discord.js [fork](https://github.com/FireDiscordBot/discord.js) that we use.
+[Geek](https://github.com/GamingGeek) @ [FireDiscordBot](https://github.com/): The [widget](https://inv.wtf) below, as well as the discord.js [fork](https://github.com/FireDiscordBot/discord.js) that we use.
 
 ## Join The Mini Hack Discord Server
 
-[![Discord Invite Widget](https://invidget.switchblade.xyz/x2H7KPMWR2)](https://invidget.switchblade.xyz/x2H7KPMWR2)
+[![Discord Invite Widget](https://inv.wtf/widget/minihack)](https://inv.wtf/minihack)
